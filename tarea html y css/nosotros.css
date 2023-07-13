@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: black;
+    background-image:  url(images/fondo1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  
+    }
+    nav{
+      font-weight: bold;
+       margin-left: 150px;
+       /* margin-right: 312; */
+       }
+     
+    
+    .tlogo{
+     display: flex;
+          align-items: center;
+          background-color: rgb(128, 128, 128, 0.5);
+  }
+  .tlogo img {
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Ajusta la altura según tus necesidades */
+    margin-right: 5px; /* Ajusta el margen derecho según tus necesidades */
+    margin-left: 10px;
+  }
+  
+  
+  ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 28px;
+  }
+  
+  a{
+  color: white;
+  text-decoration: none;
+  
+  }
+  

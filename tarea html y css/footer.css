@@ -1,0 +1,23 @@
+/* Estilos para el footer */
+.footer {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  margin-right: 10px;
+}
+
+.footer .social-icons img {
+  height: 20px;
+}

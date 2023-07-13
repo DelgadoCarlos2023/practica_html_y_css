@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+ 
+  background-image:  url(images/LogoConsutoria.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh; /* O ajusta la altura deseada */
+    font-size: 45px;
+  }
+  
+.enlaces {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(209, 37, 37, 0.5);
+  padding: 10px;
+  color: #493535;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: #121111;
+}
+
+.enlaces a:hover {
+  color: #f0c14b;
+}
+
+.enlaces h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.enlaces ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.enlaces ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.enlaces ul li a {
+  font-size: 26px;
+}
+
+.enlaces ul li a:hover {
+  color: #f0c14b;
+}
+
+/* Estilos para el logo */
+.enlaces img {
+  height: 70px;
+}
+
+
+

@@ -1,0 +1,194 @@
+
+body {
+    position: relative;
+    font-family: "Times New Roman", serif;
+    padding: 20px;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/fondo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px); /* Ajusta el valor de blur según el nivel de difuminado que desees */
+    z-index: -1;
+  }
+  
+      h1 {
+        text-align: center;
+        color: white;
+      }
+      .form-group {
+        margin-bottom: 20px;
+        font-size: 25px;
+        color: rgb(221, 25, 15);
+      }
+  
+      .shop {
+        max-width: 200px;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #e60023;
+        box-shadow: 0 2px 4px rgba(151, 9, 9, 0.2);
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        background-color: #e60023;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="Usuario"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #d84b4b;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #e60023;
+        color: #ffffff;
+        text-align: center;
+        border-bottom: #b90a0a;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background-color: #45a049;
+       
+    
+      }
+      
+      .text-center {
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        
+      }
+      .container {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 50px ;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        background-repeat: no-repeat;
+        background-position: -300px center; 
+        background-size: cover;
+      }
+      .container1 {
+        max-width: 500px; /* Ajusta el tamaño deseado en píxeles */
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      
+      }
+      
+      .inicio{
+    color: rgb(17, 12, 12);
+    font-size: center;
+      }
+      .color1{
+    color: rgb(234, 19, 19);
+      }
+      .olvido{
+        color: rgb(9, 109, 232);
+        font-size: center;
+      }
+      .color2{
+        color:#ffffff;
+      }
+      
+    
+      .logo1 {
+        position: fixed;
+        top: 15%; /* Ajusta la posición vertical según tus necesidades */
+        right: 250px ; /* Coloca el logo en el lado izquierdo */
+        transform: translateY(-50%); /* Centra verticalmente el logo */
+        z-index: 9999; /* Asegura que el logo esté por encima de otros elementos */
+        background-color:rgb(195, 196, 206);
+        border-radius: 200px;
+      }
+      .logo1_1 {
+  
+        position: fixed;
+        top: 15%; /* Ajusta la posición vertical según tus necesidades */
+        right: 150px ; /* Coloca el logo en el lado izquierdo */
+        transform: translateY(-50%); /* Centra verticalmente el logo */
+        z-index: 9999; /* Asegura que el logo esté por encima de otros elementos */
+        background-color:rgb(195, 196, 206);
+        border-radius: 10px;
+      }
+      
+      .logo1 img {
+        width: 175px; /* Ajusta el ancho de la imagen según tus necesidades */
+        height: 125px /* Ajusta la altura de la imagen según tus necesidades, o utiliza un valor específico */
+       
+      }
+      .logo1_1 img {
+        
+        width: 155px; /* Ajusta el ancho de la imagen según tus necesidades */
+        height: 105px /* Ajusta la altura de la imagen según tus necesidades, o utiliza un valor específico */
+      }
+      
+  
+      .logo2 {
+        position: fixed;
+        top: 15%; /* Ajusta la posición vertical según tus necesidades */
+        left: 250px ; /* Coloca el logo en el lado izquierdo */
+        transform: translateY(-50%); /* Centra verticalmente el logo */
+        z-index: 9999; /* Asegura que el logo esté por encima de otros elementos */
+  
+      }
+     
+      .logo2_2 {
+  
+        position: fixed;
+        top: 15%; /* Ajusta la posición vertical según tus necesidades */
+        left: 150px ; /* Coloca el logo en el lado izquierdo */
+        transform: translateY(-50%); /* Centra verticalmente el logo */
+        z-index: 9999; /* Asegura que el logo esté por encima de otros elementos */
+        background-color:rgb(195, 196, 206);
+      
+      }
+      .logo2 img {
+        width: 165px; /* Ajusta el ancho de la imagen según tus necesidades */
+        height: 185px /* Ajusta la altura de la imagen según tus necesidades, o utiliza un valor específico */
+      }
+      .logo2_2 img {
+        width: 155px; /* Ajusta el ancho de la imagen según tus necesidades */
+        height: 165 /* Ajusta la altura de la imagen según tus necesidades, o utiliza un valor específico */
+      }
+  
+    .color2{
+  
+      color: rgb(233, 14, 14);
+      font-size: center;
+  
+    }  
